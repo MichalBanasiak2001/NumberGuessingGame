@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2003EA4A-74D5-46F5-9CBD-8A8B4019CFA4}|NumberGuessingGame.csproj|g:\\academics\\informatyka_semestr_1\\podstawy programowania\\c#\\numberguessinggame\\numberguessinggame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2003EA4A-74D5-46F5-9CBD-8A8B4019CFA4}|NumberGuessingGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:30:26.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
