@@ -2,47 +2,35 @@
 
 Console.WriteLine("Program autorstwa: Michała Banasiaka 2024");
 Console.WriteLine();
-Console.WriteLine("Witamy w grze na zgadywanie liczby!\n(Wylosowana liczba jest od 1 do 100). Masz możliwość dostosowania ustawień gry.");
+Console.WriteLine("Witamy w grze na zgadywanie liczby!\n(Wylosowana liczba jest od 1 do 100). Masz 3 życia. Powodzenia!");
 
-// Wybór liczby żyć
-Console.Write("Ile żyć chcesz mieć? Podaj liczbę: ");
-int lives;
-while (!int.TryParse(Console.ReadLine(), out lives) || lives <= 0)
+int losowa = new Random().Next(1, 101);
+int lifes = 3;
+bool wygrana = false;
+
+while (lifes > 0 && !wygrana)
 {
-    Console.WriteLine("Proszę podaj prawidłową liczbę większą od 0!");
-}
-
-// Wybór opcji zakresu błędu
-Console.Write("Czy chcesz włączyć zakres błędu o 5? (tak/nie): ");
-bool errorMargin = Console.ReadLine().Trim().ToLower() == "tak";
-
-int randomNumber = new Random().Next(1, 101);
-bool victory = false;
-
-while (lives > 0 && !victory)
-{
-    Console.WriteLine("\nPozostałe życia: " + lives);
+    Console.WriteLine($"\nPozostałe życia: {lifes}");
     Console.Write("Podaj swoją liczbę: ");
 
-    int playerNumber;
-    // Margines błędu
-    while (!int.TryParse(Console.ReadLine(), out playerNumber))
+    int liczba;
+    // Obsługa błędnego wejścia
+    while (!int.TryParse(Console.ReadLine(), out liczba))
     {
         Console.WriteLine("Proszę wpisać poprawną liczbę!");
     }
 
-    // Sprawdzanie zwycięstwa
-    if (playerNumber == randomNumber || (errorMargin && Math.Abs(playerNumber - randomNumber) <= 5))
+    if (liczba == losowa)
     {
-        Console.WriteLine("Wygrałeś! Gratulacje! Wylosowana liczba to: " + randomNumber);
-        victory = true;
+        Console.WriteLine("Wygrałeś! Gratulacje!");
+        wygrana = true;
     }
     else
     {
-        lives--;
+        lifes--;
         Console.WriteLine("Przegrałeś!");
 
-        if (playerNumber > randomNumber)
+        if (liczba > losowa)
         {
             Console.WriteLine($"Wylosowana liczba jest mniejsza od twojej.");
         }
@@ -51,14 +39,14 @@ while (lives > 0 && !victory)
             Console.WriteLine($"Wylosowana liczba jest większa od twojej.");
         }
 
-        if (lives > 0)
+        if (lifes > 0)
         {
             Console.WriteLine("Spróbuj ponownie.");
         }
     }
 }
 
-if (!victory)
+if (!wygrana)
 {
-    Console.WriteLine("\nKoniec gry! Wylosowana liczba to: " + randomNumber);
+    Console.WriteLine($"\nKoniec gry! Wylosowana liczba to: {losowa}");
 }
