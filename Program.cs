@@ -1,6 +1,6 @@
 ﻿// Program napisany przez Michała Banasiaka
 
-Console.WriteLine("Program autorstwa: Michała Banasiaka 2024");
+Console.WriteLine("Program autorstwa: Michała Banasiaka.");
 Console.WriteLine();
 Console.WriteLine("Witamy w grze na zgadywanie liczby!\n(Wylosowana liczba jest od 1 do 100). Masz możliwość dostosowania ustawień gry.");
 
