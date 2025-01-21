@@ -12,3 +12,17 @@ D:\Development\C#\NumberGuessingGame\NumberGuessingGame\obj\Debug\net9.0\refint\
 D:\Development\C#\NumberGuessingGame\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.pdb
 D:\Development\C#\NumberGuessingGame\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.genruntimeconfig.cache
 D:\Development\C#\NumberGuessingGame\NumberGuessingGame\obj\Debug\net9.0\ref\NumberGuessingGame.dll
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.exe
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.deps.json
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.runtimeconfig.json
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.dll
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.pdb
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.AssemblyInfoInputs.cache
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.AssemblyInfo.cs
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.csproj.CoreCompileInputs.cache
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.dll
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\refint\NumberGuessingGame.dll
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.pdb
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.genruntimeconfig.cache
+G:\Academics\Informatyka_Semestr_1\Podstawy Programowania\C#\NumberGuessingGame\obj\Debug\net9.0\ref\NumberGuessingGame.dll

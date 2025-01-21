@@ -1,27 +1,52 @@
-﻿//Program napisany przez Michała Banasiaka
+﻿// Program napisany przez Michała Banasiaka
 
 Console.WriteLine("Program autorstwa: Michała Banasiaka 2024");
 Console.WriteLine();
-Console.WriteLine("Witamy w grze na zgadywanie liczby! Podaj swoją liczbę:");
-Console.WriteLine("(Wylosowana liczba jest od 1 do 100).");
+Console.WriteLine("Witamy w grze na zgadywanie liczby!\n(Wylosowana liczba jest od 1 do 100). Masz 3 życia. Powodzenia!");
 
-int liczba = Convert.ToInt32(Console.ReadLine());
 int losowa = new Random().Next(1, 101);
+int lifes = 3;
+bool wygrana = false;
 
-if (liczba == losowa)
+while (lifes > 0 && !wygrana)
 {
-    Console.WriteLine("Wygrałes!");
-}
-else
-{
-    Console.WriteLine("Przegrałes!");
-    if (liczba > losowa)
+    Console.WriteLine($"\nPozostałe życia: {lifes}");
+    Console.Write("Podaj swoją liczbę: ");
+
+    int liczba;
+    // Obsługa błędnego wejścia
+    while (!int.TryParse(Console.ReadLine(), out liczba))
     {
-        Console.WriteLine("Wylosowana liczba jest mniejsza od twojej o: " + (liczba - losowa));
-    }
-    else if (liczba < losowa)
-    {    
-        Console.WriteLine("Wylosowana liczba jest większa od twojej o: " + (losowa - liczba));
+        Console.WriteLine("Proszę wpisać poprawną liczbę!");
     }
 
+    if (liczba == losowa)
+    {
+        Console.WriteLine("Wygrałeś! Gratulacje!");
+        wygrana = true;
+    }
+    else
+    {
+        lifes--;
+        Console.WriteLine("Przegrałeś!");
+
+        if (liczba > losowa)
+        {
+            Console.WriteLine($"Wylosowana liczba jest mniejsza od twojej.");
+        }
+        else
+        {
+            Console.WriteLine($"Wylosowana liczba jest większa od twojej.");
+        }
+
+        if (lifes > 0)
+        {
+            Console.WriteLine("Spróbuj ponownie.");
+        }
+    }
+}
+
+if (!wygrana)
+{
+    Console.WriteLine($"\nKoniec gry! Wylosowana liczba to: {losowa}");
 }
