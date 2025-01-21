@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame.csproj": {}
+    "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\NumberGuessingGame.csproj": {}
   },
   "projects": {
-    "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame.csproj": {
+    "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\NumberGuessingGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame.csproj",
+        "projectUniqueName": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\NumberGuessingGame.csproj",
         "projectName": "NumberGuessingGame",
-        "projectPath": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame.csproj",
+        "projectPath": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\NumberGuessingGame.csproj",
         "packagesPath": "C:\\Users\\Reiisen\\.nuget\\packages\\",
-        "outputPath": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\obj\\",
+        "outputPath": "G:\\Academics\\Informatyka_Semestr_1\\Podstawy Programowania\\C#\\NumberGuessingGame\\NumberGuessingGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
